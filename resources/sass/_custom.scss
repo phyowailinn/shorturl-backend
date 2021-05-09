@@ -1,0 +1,150 @@
+// Here you can add other styles
+
+.c-header.c-header-fixed {
+    top: 0px;
+}
+
+.click-file {
+    cursor: pointer;
+}
+
+.table-responsive tfoot {
+    display: table-header-group;
+}
+
+.table-responsive tfoot input {
+    border-radius: 3px;
+    border: 1px solid #d2d6de;
+    font-weight: normal;
+}
+
+.table-responsive tfoot .small-input input {
+    width: 110px;
+}
+
+.table-responsive tfoot select {
+    border-radius: 3px;
+    border: 1px solid #d2d6de;
+    font-weight: normal;
+}
+
+.table-responsive tfoot .small-input select {
+    width: 110px;
+}
+
+.custom-overflow {
+    overflow: scroll;
+}
+
+.resize-jumbotron {
+    margin: 0;
+    padding: 1%;
+}
+
+div.dataTables_wrapper div.dataTables_length {
+    width: 50% !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(100%);
+}
+
+.c-sidebar-brand {
+    background: #fff !important;
+}
+
+.font-white {
+    color: white;
+}
+
+// validation error color
+.help-block .error-help-block {
+    color: #800000;
+}
+.has-error {
+    color: #800000;
+}
+// validation error color end
+// validation success
+.has-success {
+    color: green;
+}
+// validation success end
+
+.zoom-in {
+    width: 100%;
+    height: auto;
+    border-radius: 1px;
+    border: solid 1px gray;
+}
+
+.zoom-in:hover {
+    -ms-transform: scale(5.5); /* IE 9 */
+    -webkit-transform: scale(5.5); /* Safari 3-8 */
+    transform: scale(5.5);
+    cursor: zoom-in;
+}
+
+span#is_featured-error {
+    color: #800000;
+}
+
+.form-group.has-success.row .custom-control-label {
+    color: #800000;
+}
+.img-profile-custom {
+    border: 3px solid #d2d6de;
+    object-fit: contain;
+    border-radius: 50%;
+    padding: 2px;
+    margin-bottom: 4px;
+    width: 130px;
+    height: 130px;
+}
+
+@media print {
+    .no-print,
+    .no-print * {
+        display: none !important;
+    }
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+/*
+hide searchable boxes
+*/
+.dataTables_filter,
+.dataTables_info {
+    display: none;
+}
