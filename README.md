@@ -16,7 +16,11 @@ then run
 php artisan migrate:fresh --seed
 ```
 
-finally, paste ``` ShortUrl::routes(); ``` at the end of ``` routes/web.php ```
+Enviroment Variable
+
+```
+FRONTEND_URL=http://localhost:3000
+```
 
 ## Blade Scaffolding
 
