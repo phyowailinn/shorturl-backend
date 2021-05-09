@@ -22,6 +22,13 @@ Enviroment Variable
 FRONTEND_URL=http://localhost:3000
 ```
 
+Demo Login
+
+```
+Email=admin@admin.com
+Password=12345678
+```
+
 ## Blade Scaffolding
 
 With composer
